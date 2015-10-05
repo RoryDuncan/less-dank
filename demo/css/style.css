@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:300,700|Source+Sans+Pro:100,400,300,600,400italic);
+body {
+  background-color: #444;
+  background-attachment: fixed;
+  color: #fff;
+  font: 16px/28px "Source Sans Pro", sans-serif;
+}
+hr {
+  border-color: rgba(0, 0, 0, 0.15);
+  outline: 1px solid rgba(255, 255, 255, 0.05);
+}
+a.btn {
+  background-color: #222;
+  color: #fc7;
+  text-decoration: none;
+  display: block;
+  max-width: 250px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 12px 18px;
+}
+a.btn:hover {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+#introduction {
+  padding: 40px 0px;
+  color: #fc7;
+}
+#introduction h1,
+#introduction h2 {
+  font-family: "Oswald", sans-serif;
+}
+#introduction h1 {
+  font-size: 2.8em;
+  font-weight: 700;
+  color: #fc2;
+  margin-bottom: 60px;
+}
+#introduction h2 {
+  color: #fff;
+  font-wight: 300;
+  text-transform: uppercase;
+}
+#introduction .sample {
+  margin-bottom: 25px;
+  background-color: #eee;
+  color: #454545;
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
+}
+#introduction .sample > * {
+  padding: 14px;
+}
+#introduction .sample * {
+  margin: 0px 0px;
+}
+#introduction .sample .title {
+  background-color: #fafafa;
+}
+#introduction .sample h1,
+#introduction .sample h2,
+#introduction .sample h3,
+#introduction .sample h4,
+#introduction .sample h5 {
+  color: #668;
+  margin: 0px 0px;
+}
+.example {
+  margin: 12px auto;
+  padding: 4px 0px;
+}
+.example .col {
+  color: #211;
+  background-color: #fc6;
+  text-align: center;
+  padding-top: 16px inherit;
+  font-size: 14px;
+  font-weight: 600;
+}

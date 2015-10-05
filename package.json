@@ -1,0 +1,29 @@
+{
+  "name": "less-dank",
+  "version": "0.0.1",
+  "description": "My Personal LESS grid.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoryDuncan/less-dank.git"
+  },
+  "keywords": [
+    "LESS",
+    "GRID"
+  ],
+  "author": "Rory Duncan",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/RoryDuncan/less-dank/issues"
+  },
+  "homepage": "https://github.com/RoryDuncan/less-dank#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-less": "^3.0.3",
+    "less": "^2.5.3"
+  }
+}

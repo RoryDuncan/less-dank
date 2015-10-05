@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>My Personal LESS grid</title>
+
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel='stylesheet' href='css/grid.css'>
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+
+  </head>
+
+  <body>
+
+
+<div id="introduction">
+  <div class="wrapper">
+    <h1>MY PERSONAL LESS GRID</h1>
+    <h2>Features</h2>
+    <div class="sample">
+      <h3 class="title">Simple Structure.</h3>
+      <div class="row">
+        <div class="col w12">
+          <h4>full-width</h4><code>.row > .col.w*</code>
+        </div>
+        <div class="col w12">
+          <h4>wrapper'd</h4><code>.wrapper > .row > .col.w*</code>
+        </div>
+      </div>
+    </div>
+    <div class="sample">
+      <h3 class="title">Simple to customize.</h3>
+      <pre><code>@column-count: 24;
+@breakpoints: 300px, 540px, 768px, 1024px, 1650px;
+@gutter-size: 2.5%;</code></pre>
+    </div>
+    <div class="sample">
+      <h3 class="title">Padded Gutters rather than Margin Gutters.</h3>
+      <p>Preferential, but I like padding for presentation of text &amp; ease of overwrite.</p>
+    </div>
+    <div class="sample">
+      <h3 class="title">Snaps to full-width on small screen sizes.</h3>
+      <p>.col's become full-width at a specified breakpoint. Shrink this page and see!</p>
+    </div>
+  </div>
+</div>
+<hr/>
+<div class="wrapper">
+  <div class="row example">
+    <div class="col w24">.w24</div>
+  </div>
+  <div class="row example">
+    <div class="col w12">.w12</div>
+    <div class="col w12">.w12</div>
+  </div>
+  <div class="row example">
+    <div class="col w8">.w8</div>
+    <div class="col w8">.w8</div>
+    <div class="col w8">.w8</div>
+  </div>
+  <div class="row example">
+    <div class="col w6">.w6</div>
+    <div class="col w6">.w6</div>
+    <div class="col w6">.w6</div>
+    <div class="col w6">.w6</div>
+  </div>
+  <div class="row example">
+    <div class="col w4">.w4</div>
+    <div class="col w4">.w4</div>
+    <div class="col w4">.w4</div>
+    <div class="col w4">.w4</div>
+    <div class="col w4">.w4</div>
+    <div class="col w4">.w4</div>
+  </div>
+  <div class="row example">
+    <div class="col w3">.w3</div>
+    <div class="col w3">.w3</div>
+    <div class="col w3">.w3</div>
+    <div class="col w3">.w3</div>
+    <div class="col w3">.w3</div>
+    <div class="col w3">.w3</div>
+    <div class="col w3">.w3</div>
+    <div class="col w3">.w3</div>
+  </div>
+  <div class="row example">
+    <div class="col w2">.w2</div>
+    <div class="col w2">.w2</div>
+    <div class="col w2">.w2</div>
+    <div class="col w2">.w2</div>
+    <div class="col w2">.w2</div>
+    <div class="col w2">.w2</div>
+    <div class="col w2">.w2</div>
+    <div class="col w2">.w2</div>
+    <div class="col w2">.w2</div>
+    <div class="col w2">.w2</div>
+    <div class="col w2">.w2</div>
+    <div class="col w2">.w2</div>
+  </div>
+  <div class="row example">
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+    <div class="col w1">.w1</div>
+  </div>
+</div>
+<div class="wrapper"><a href="http://codepen.io/RoryDuncan/pen/NqoxYE/?editors=010" target="_blank" class="btn">View Source on Codepen</a></div>
+
+
+
+
+
+  </body>
+</html>
